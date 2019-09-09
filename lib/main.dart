@@ -2,13 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
+const API_KEY = "18abeb74";
+
 const request =
-    "https://api.hgbrasil.com/finance/quotations?format=json&key=${YOUR_KEY}";
+    "https://api.hgbrasil.com/finance/quotations?format=json&key=$API_KEY";
 
 void main() async {
   runApp(MaterialApp(
     home: Home(),
     theme: ThemeData(hintColor: Colors.amber, primaryColor: Colors.white),
+    debugShowCheckedModeBanner: false,
   ));
 }
 

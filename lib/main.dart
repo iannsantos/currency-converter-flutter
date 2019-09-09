@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const API_KEY = "18abeb74";
+const API_KEY = "YOUR KEY";
 
 const request =
     "https://api.hgbrasil.com/finance/quotations?format=json&key=$API_KEY";

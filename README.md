@@ -10,6 +10,8 @@ Currency Converter
   <img src="presentation.gif" alt="demo" height="425">
 </div>
 
+<br/>
+
 ## Features
 
 - **Flutter** — Flutter makes it easy and fast to build beautiful mobile apps
